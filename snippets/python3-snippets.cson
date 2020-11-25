@@ -1,0 +1,26 @@
+'.source.python':
+
+  'Enumerate Function':
+    'prefix': 'enum'
+    'body': 'enumerate(${1:iterable})$2'
+  'Input Function':
+    'prefix': 'input'
+    'body': 'input($1)$2'
+  'Literal String Interpolation (F-string)':
+    'prefix': 'fstr'
+    'body': 'f\'$1\''
+  'Max Function':
+    'prefix': 'max'
+    'body': 'max($1:arg)$2'
+  'Min Function':
+    'prefix': 'min'
+    'body': 'min($1:arg)$2'
+  'Print Function':
+    'prefix': 'print'
+    'body': 'print($1)$2'
+  'Sorted Function':
+    'prefix': 'sorted'
+    'body': 'sorted(${1:iterable})$2'
+  'Type Function':
+    'prefix': 'type'
+    'body': 'type($1)$2'
