@@ -11,13 +11,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "contributes": {
-    "snippets": [
-      {
-        "language": "python",
-        "path": "./snippets/python3-snippets.json"
-      }
-    ]
-  },
   "dependencies": {}
 }
