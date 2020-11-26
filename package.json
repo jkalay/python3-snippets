@@ -1,0 +1,18 @@
+{
+  "name": "python3-snippets",
+  "version": "0.0.0",
+  "description": "Python 3 snippets for the Atom text editor",
+  "keywords": [
+    "python",
+    "snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkalay/python3-snippets"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
