@@ -1,8 +1,14 @@
 '.source.python':
 
+  'Dict Function':
+    'prefix': 'dict'
+    'body': 'dict($1)$2'
   'Dir Function':
     'prefix': 'dir'
     'body': 'dir(${1:obj})$2'
+  'Divmod Function':
+    'prefix': 'divmod'
+    'body': 'divmod(${1:a}, ${2:b})$3'
   'elif Branch':
     'prefix': 'elif'
     'body': '''
@@ -18,6 +24,9 @@
   'Enumerate Function':
     'prefix': 'enum'
     'body': 'enumerate(${1:iterable})$2'
+  'Float Function':
+    'prefix': 'float'
+    'body': 'float($1)$2'
   'if else':
     'prefix': 'ife'
     'body': '''
@@ -39,6 +48,9 @@
   'Input Function':
     'prefix': 'input'
     'body': 'input($1)$2'
+  'Int Function':
+    'prefix': 'int'
+    'body': 'int($1)$2'
   'Len Function':
     'prefix': 'len'
     'body': 'len(${1:obj})$2'
@@ -54,6 +66,9 @@
   'Open Function':
     'prefix': 'open'
     'body': 'open(${1:file}$2)$3'
+  'Pow Function':
+    'prefix': 'pow'
+    'body': 'pow(${1:base}, ${2:exp})$3'
   'Print Function':
     'prefix': 'print'
     'body': 'print($1)$2'
@@ -63,9 +78,21 @@
   'Round Function':
     'prefix': 'round'
     'body': 'round(${1:num})$2'
+  'Set Function':
+    'prefix': 'set'
+    'body': 'set($1)$2'
   'Sorted Function':
     'prefix': 'sorted'
     'body': 'sorted(${1:iterable})$2'
+  'Str Function':
+    'prefix': 'str'
+    'body': 'str($1)$2'
+  'Sum Function':
+    'prefix': 'sum'
+    'body': 'sum(${1:iterable})$2'
+  'Tuple Function':
+    'prefix': 'tuple'
+    'body': 'input($1)$2'
   'Type Function':
     'prefix': 'type'
     'body': 'type($1)$2'
