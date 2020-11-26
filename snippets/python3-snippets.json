@@ -1,0 +1,70 @@
+{
+  "Dir Function": {
+    "prefix": "dir",
+    "body": "dir(${1:obj})$2"
+  },
+  "elif Branch": {
+    "prefix": "elif",
+    "body": "elif ${1:condition}:\n  ${2:pass}"
+  },
+  "else Branch": {
+    "prefix": "else",
+    "body": "else ${1:condition}:\n  ${2:pass}"
+  },
+  "Enumerate Function": {
+    "prefix": "enum",
+    "body": "enumerate(${1:iterable})$2"
+  },
+  "if else": {
+    "prefix": "ife",
+    "body": "if ${1:condition}:\n  ${2:pass}\nelse:\n  ${3:pass}"
+  },
+  "if elif else": {
+    "prefix": "ifelif",
+    "body": "if ${1:condition}:\n  ${2:pass}\nelif ${3:condition}:\n  ${4:pass}\nelse:\n  ${5:pass}"
+  },
+  "Input Function": {
+    "prefix": "input",
+    "body": "input($1)$2"
+  },
+  "Len Function": {
+    "prefix": "len",
+    "body": "len(${1:obj})$2"
+  },
+  "Literal String Interpolation (F-string)": {
+    "prefix": "fs",
+    "body": "f'$1'$2"
+  },
+  "Max Function": {
+    "prefix": "max",
+    "body": "max(${1:arg})$2"
+  },
+  "Min Function": {
+    "prefix": "min",
+    "body": "min(${1:arg})$2"
+  },
+  "Open Function": {
+    "prefix": "open",
+    "body": "open(${1:file}$2)$3"
+  },
+  "Print Function": {
+    "prefix": "print",
+    "body": "print($1)$2"
+  },
+  "Range Function": {
+    "prefix": "range",
+    "body": "range($1)$2"
+  },
+  "Round Function": {
+    "prefix": "round",
+    "body": "round(${1:num})$2"
+  },
+  "Sorted Function": {
+    "prefix": "sorted",
+    "body": "sorted(${1:iterable})$2"
+  },
+  "Type Function": {
+    "prefix": "type",
+    "body": "type($1)$2"
+  }
+}
